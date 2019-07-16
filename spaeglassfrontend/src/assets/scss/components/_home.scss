@@ -1,0 +1,49 @@
+.home {
+	&__hero {
+		padding: 180px 0;
+		
+		
+
+		&__paragraph {
+			padding-bottom: 20px;
+		}
+
+		&__container {
+			position: relative;
+		}
+
+		&__img {
+			position: absolute;
+			right: -20px;
+			top:0;
+			img { 
+				max-width: 200%;
+			}
+		}
+
+	}
+
+	&__about__block {
+		background: #fff;
+		border-radius: 6px; 
+		margin: 40px 0;
+		padding: 50px;
+	}
+
+	&__how__block {
+		background: #fff;
+		border-radius: 6px; 
+		margin: 40px 0;
+		padding: 50px;
+		min-height: 720px;
+	}
+
+	&__how__img {
+		height: 200px;
+		margin: 20px 0 50px;
+		img {
+			max-height: 200px;
+			width: 100%;
+		}
+	}
+}

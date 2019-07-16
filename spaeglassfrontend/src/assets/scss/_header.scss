@@ -1,0 +1,63 @@
+.header {
+	position: fixed;
+	background:#F8F8F8;
+	width: 100%;
+	padding: 20px 10px;
+
+	&__logo {
+		font-size: 24px;
+		color: #333;
+		text-transform: uppercase;
+		font-weight: 800;
+		float: left;
+		margin-right: 30px;
+	}
+
+
+	&__nav {
+		float: left;
+
+		ul {
+			list-style: none;
+			padding-top: 5px;
+			margin:0;
+			li {
+				float: left;
+				padding-right: 20px;
+
+				a {
+					font-size: 14px;
+					color: #333;
+				}
+
+			}
+		}
+	}
+
+	&__member {
+		float: right;
+
+		ul {
+			list-style: none;
+			float: right;
+			padding-top: 5px;
+			margin:0;
+			li {
+				float: left;
+				padding-left: 20px;
+				a {
+					font-size: 14px;
+					color: #333;
+					&.header__getstarted {
+						font-size: 16px;
+						color: #fff;
+						background-color: #059FF5;
+						border-radius: 30px;
+						padding: 10px 20px;
+						font-family: 'Libre Baskerville', serif;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+body {
+	background-color: #f8f8f8;
+}
+
+
+.button {
+	&--primary {
+		font-size: 16px;
+		color: #fff;
+		background-color: #059FF5;
+		border-radius: 30px;
+		padding: 10px 30px;
+		font-family: 'Libre Baskerville', serif;
+	}
+}
+
+.page__container {
+	min-width: 700px;
+}
